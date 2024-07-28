@@ -139,5 +139,5 @@ fs.watchFile(file, () => { fs.unwatchFile(file);console.log(`Update'${__filename
   //readcmds:process.env.READ_COMMANDS|| "false", 
   //alwaysonline:process.env.WAPRESENCE|| "unavailable", // 'unavailable' | 'online' | 'composing' | 'recording' | 'paused'
   //read_status: process.env.AUTO_READ_STATUS || "true",
-  //save_status: process.env.AUTO_SAVE_STATUS || "true",  //aitts_Voice_Id : process.env.AITTS_ID || "37",
+  //save_status: process.env.AUTO_SAVE_STATUS || "false",  //aitts_Voice_Id : process.env.AITTS_ID || "37",
   //EENLAB_API_KEY: process.env.ELEVENLAB_API_KEY  || "",
